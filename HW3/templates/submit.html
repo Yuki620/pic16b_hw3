@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% extends 'base.html' %}{% block header %}
+        <h1>{% block title %}Submit{% endblock %}</h1>
+        {% endblock %}{% block content %}
+        <form method="post">
+            <label for="message">Your message:</label>
+            <br>
+            <input name="message" id="message">
+            <br>
+            <label for="name">Your name or handle:</label>
+            <br>
+            <input name="name" id=""name>
+            <br>
+            <input type="submit" value="Submit message">
+        </form>
+        {% endblock %}
+    </body>
+</html>
