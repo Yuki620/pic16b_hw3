@@ -1,19 +1,20 @@
 html {
-    font-family: sans-serif;
-    background: AntiqueWhite;
+    font-family: Bookman, URW Bookman L, serif;
+    color: rgb(76, 75, 75);
+    background: #ffbfd4;
     padding: 1rem;
 }
 
 body {
-    max-width: 900px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    color: white;
+    font-family: Luminari, fantasy;
     margin: 1rem 0;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -27,7 +28,7 @@ hr {
 }
 
 nav {
-    background: AntiqueWhite;
+    background: #ffbfd4;
     padding: 0 0.5rem;
     border-radius: 25px;
 }
@@ -45,8 +46,8 @@ nav ul li a {
 }
 
 .content {
-    padding: 0 1rem 1rem;
-    background: white;
+    padding: 0.25rem 0.5rem;
+    background: #EC7699;
     border-radius: 25px;
 }
 
