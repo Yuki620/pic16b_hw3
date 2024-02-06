@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% extends 'base.html' %}{% block header %}
+        <h1>{% block title %}Some Cool Messages{% endblock %}</h1>
+        {% endblock %}{% block content %}
+        <ul>
+            {% for m in messages %}
+            <li>{{m[1]}} <br> - <em>{{m[0]}}</em></li>
+            {% endfor %}
+        </ul>
+        {% endblock %}
+    </body>
+</html>
